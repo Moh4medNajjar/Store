@@ -129,12 +129,12 @@
 <!--fourth layer header starts here-->
 <div class="row">
   <div class="image-container">
-    <img src="../../assets/banner-1.jpg" style="border-radius: 20px;" alt="" height="480px">
+    <img src="../../assets/banner-1.jpg" class="banner" style="border-radius: 20px;" alt="" >
     <div class="text-container">
-      <p style="color:#FF8E9B; font-weight:600" class="mb-1 fs-3">Trending Accessories</p>
-      <p style="font-weight:bold; font-size:28px; line-height:1" class="fs-1">Modern<br>Sunglasses</p>
-      <p style="color:#7C7B7D" class="mt-3 fs-6">starting at $ <span style="font-weight:bold; font-size:larger">15</span>.00</p>
-      <button class="btn waves-effect waves-light" style="margin-top:10px; background-color:#FF8E9B; color:white; border:none; width:100px; height:30px" class="rounded"><p class="shop">SHOP NOW</p></button>
+      <p style="color:#FF8E9B; font-weight:600" class="change ">Trending Accessories</p>
+      <p class="change" style="font-weight:bold; font-size:28px; line-height:1">Modern<br>Sunglasses</p>
+      <p class="change" style="color:#7C7B7D" >starting at $ <span style="font-weight:bold; font-size:larger">15</span>.00</p>
+      <button class="btn waves-effect waves-light shopNow change" style="margin-top:10px; background-color:#FF8E9B; color:white; border:none; width:100px; height:30px" class="rounded"><p class="shop">SHOP NOW</p></button>
     </div>
   </div>
 </div>
@@ -262,7 +262,7 @@
       </div>
       <!--Deal of the day section-->
       <div>
-        <h4>Deal of the day</h4>
+        <h4 style="font-weight:600; margin-top:30px ">Deal of the day</h4>
         <div class="row" style="border:1px solid rgba(128, 128, 128, 0.308); border-radius:12px">
           <div class="col-lg-5 col-xs-12">
             <img src="../../assets/shampoo.jpg" class="best" alt="">
@@ -285,6 +285,62 @@
         </div>
       </div>
       <!--Deal of the day section-->
+
+      <!--New Products Section-->
+
+      <div>
+        <h4 style="font-weight:600; margin-top:30px ">New Products</h4>
+
+        <div class="row mt-3">
+          <div class="col-lg-3 col-sm-6 col-xs-12">
+            <div class="card p-2 mb-4">
+              <img src="../../assets/jacket-4.jpg" alt="">
+              <p style="color:#f37786; font-weight:500; font-size:larger">Jacket</p>
+              <p style="color:rgba(128, 128, 128, 0.674); font-size:17px">Man's Winter Leather Jackets</p>
+              <p-rating [(ngModel)]="value" [readonly]="true" [cancel]="false"></p-rating>
+              <p class="mt-2">  <span style="font-weight:600;  margin-right:14px; color:#2c2828">$4.00</span> <span style="text-decoration: line-through; color:grey">$5.30</span></p>
+
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 col-xs-12">
+            <div class="card p-2 mb-4">
+              <img src="../../assets/jacket-4.jpg" alt="">
+              <p style="color:#f37786; font-weight:500; font-size:larger">Jacket</p>
+              <p style="color:rgba(128, 128, 128, 0.674); font-size:17px">Man's Winter Leather Jackets</p>
+              <p-rating [(ngModel)]="value" [readonly]="true" [cancel]="false"></p-rating>
+              <p class="mt-2">  <span style="font-weight:600;  margin-right:14px; color:#2c2828">$4.00</span> <span style="text-decoration: line-through; color:grey">$5.30</span></p>
+
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 col-xs-12">
+            <div class="card p-2 mb-4">
+              <img src="../../assets/jacket-4.jpg" alt="">
+              <p style="color:#f37786; font-weight:500; font-size:larger">Jacket</p>
+              <p style="color:rgba(128, 128, 128, 0.674); font-size:17px">Man's Winter Leather Jackets</p>
+              <p-rating [(ngModel)]="value" [readonly]="true" [cancel]="false"></p-rating>
+              <p class="mt-2">  <span style="font-weight:600;  margin-right:14px; color:#2c2828">$4.00</span> <span style="text-decoration: line-through; color:grey">$5.30</span></p>
+
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 col-xs-12">
+            <div class="card p-2 mb-4">
+              <img src="../../assets/jacket-4.jpg" alt="">
+              <p style="color:#f37786; font-weight:500; font-size:larger">Jacket</p>
+              <p style="color:rgba(128, 128, 128, 0.674); font-size:17px">Man's Winter Leather Jackets</p>
+              <p-rating [(ngModel)]="value" [readonly]="true" [cancel]="false"></p-rating>
+              <p class="mt-2">  <span style="font-weight:600;  margin-right:14px; color:#2c2828">$4.00</span> <span style="text-decoration: line-through; color:grey">$5.30</span></p>
+
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+      <!--New Products Section-->
 
     </div>
   </div>
