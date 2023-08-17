@@ -8,8 +8,9 @@ import { StoreComponent } from './store/store.component';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import { RatingModule } from 'primeng/rating';
-import { FormsModule } from '@angular/forms'; // Import the FormsModule
+import { FormsModule } from '@angular/forms';
 import {MatDividerModule} from '@angular/material/divider';
+import {MatSliderModule} from '@angular/material/slider';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +24,8 @@ import {MatDividerModule} from '@angular/material/divider';
     MatIconModule,
     RatingModule,
     FormsModule,
-    MatDividerModule
+    MatDividerModule,
+    MatSliderModule
   ],
   providers: [],
   bootstrap: [AppComponent]
